@@ -9,19 +9,19 @@
 NPM
 
 ```
-npm install fib-o
+npm install @alexvcasillas/fib-o
 ```
 
 YARN
 
 ```
-yarn add fib-o
+yarn add @alexvcasillas/fib-o
 ```
 
 ## Usage
 
 ```
-import { fib } from 'fib-o';
+import { fib } from '@alexvcasillas/fib-o';
 const result = fib(50);
 console.log(result); // 12586269025
 ```
