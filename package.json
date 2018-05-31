@@ -1,0 +1,25 @@
+{
+  "name": "fib-o",
+  "version": "1.0.0",
+  "description": "A cached fibonacci implementation",
+  "main": "dist/fib-o.js",
+  "scripts": {
+    "rollup": "rollup -c",
+    "test": "ava --verbose",
+    "prepare": "npm run rollup && npm run test"
+  },
+  "keywords": ["fibonacci", "algorithm", "math"],
+  "author": "Alex Casillas <alexvcasillas@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "1.0.0-beta.4",
+    "@babel/cli": "^7.0.0-beta.49",
+    "@babel/core": "^7.0.0-beta.49",
+    "@babel/preset-env": "^7.0.0-beta.49",
+    "rollup": "^0.59.4",
+    "rollup-plugin-babel": "^4.0.0-beta.4",
+    "rollup-plugin-filesize": "^1.5.0",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-uglify": "^4.0.0"
+  }
+}

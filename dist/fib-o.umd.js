@@ -1,0 +1,1 @@
+!function(e,n){"object"==typeof exports&&"undefined"!=typeof module?n():"function"==typeof define&&define.amd?define(n):n()}(0,function(){"use strict";module.exports={fib:function(e){var f={};return function e(n){if(0===n)return 0;if(1===n)return 1;if(f[n])return f[n];var t=e(n-1)+e(n-2);return f[n]=t}(e)}}});
